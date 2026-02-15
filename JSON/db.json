@@ -1,0 +1,128 @@
+{
+    "publications": [
+      {
+        "id": "1",
+        "titre": "lrjihjhon",
+        "auteur": "Alice",
+        "image": "example@mail.com",
+        "datePublication": "2022-01-01",
+        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
+      },
+      {
+        "id": "2",
+        "titre": "kifgvi",
+        "auteur": "Alice",
+        "image": "example@mail.com",
+        "datePublication": "2022-01-01",
+        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
+      },
+      {
+        "id": "3",
+        "titre": ",kjbki",
+        "auteur": "Alice",
+        "image": "example@mail.com",
+        "datePublication": "2022-01-01",
+        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
+      },
+      {
+        "id": "4",
+        "titre": "kfhbk",
+        "auteur": "Alice",
+        "image": "example@mail.com",
+        "datePublication": "2022-01-01",
+        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
+      },
+      {
+        "id": "5",
+        "titre": "jkdeir",
+        "auteur": "Alice",
+        "image": "example@mail.com",
+        "datePublication": "2022-01-01",
+        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
+      },
+      {
+        "id": "6",
+        "titre": "kilb",
+        "auteur": "Alice",
+        "image": "example@mail.com",
+        "datePublication": "2022-01-01",
+        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
+      },
+      {
+        "id": "7",
+        "titre": "hjibdv",
+        "auteur": "Alice",
+        "image": "example@mail.com",
+        "datePublication": "2022-01-01",
+        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
+      }
+    ],
+    "commentaires": [
+      {
+        "id": "1",
+        "publicationId": "1",
+        "dateCommentaire": "2022-01-02",
+        "contenu": "Great post!"
+      },
+      {
+        "id": "2",
+        "publicationId": "1",
+        "dateCommentaire": "2022-01-03",
+        "contenu": "Thanks for sharing!"
+      },
+      {
+        "id": "3",
+        "publicationId": "2",
+        "dateCommentaire": "2022-01-04",
+        "contenu": "Interesting perspective."
+      },
+      {
+        "id": "5",
+        "publicationId": "1",
+        "dateCommentaire": "2022-01-03",
+        "contenu": "Thanks for sharing!"
+      },
+      {
+        "id": "6",
+        "publicationId": "2",
+        "dateCommentaire": "2022-01-04",
+        "contenu": "Interesting perspective."
+      },
+      {
+        "id": "7",
+        "publicationId": "4",
+        "dateCommentaire": "2022-01-03",
+        "contenu": "Thanks for sharing!"
+      },
+      {
+        "id": "8",
+        "publicationId": "7",
+        "dateCommentaire": "2022-01-04",
+        "contenu": "Interesting perspective."
+      },
+      {
+        "id": "9",
+        "publicationId": "6",
+        "dateCommentaire": "2022-01-03",
+        "contenu": "Thanks for sharing!"
+      },
+      {
+        "id": "10",
+        "publicationId": "5",
+        "dateCommentaire": "2022-01-04",
+        "contenu": "Interesting perspective."
+      },
+      {
+        "id": "11",
+        "publicationId": "6",
+        "dateCommentaire": "2022-01-03",
+        "contenu": "Thanks for sharing!"
+      },
+      {
+        "id": "12",
+        "publicationId": "6",
+        "dateCommentaire": "2022-01-04",
+        "contenu": "Interesting perspective."
+      }
+    ]
+  }

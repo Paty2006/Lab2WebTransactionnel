@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "json-server": "^1.0.0-beta.6",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "cypress": "^15.10.0"
+  }
+}
