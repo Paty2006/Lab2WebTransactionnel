@@ -1,128 +1,103 @@
 {
-    "publications": [
-      {
-        "id": "1",
-        "titre": "lrjihjhon",
-        "auteur": "Alice",
-        "image": "example@mail.com",
-        "datePublication": "2022-01-01",
-        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
-      },
-      {
-        "id": "2",
-        "titre": "kifgvi",
-        "auteur": "Alice",
-        "image": "example@mail.com",
-        "datePublication": "2022-01-01",
-        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
-      },
-      {
-        "id": "3",
-        "titre": ",kjbki",
-        "auteur": "Alice",
-        "image": "example@mail.com",
-        "datePublication": "2022-01-01",
-        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
-      },
-      {
-        "id": "4",
-        "titre": "kfhbk",
-        "auteur": "Alice",
-        "image": "example@mail.com",
-        "datePublication": "2022-01-01",
-        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
-      },
-      {
-        "id": "5",
-        "titre": "jkdeir",
-        "auteur": "Alice",
-        "image": "example@mail.com",
-        "datePublication": "2022-01-01",
-        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
-      },
-      {
-        "id": "6",
-        "titre": "kilb",
-        "auteur": "Alice",
-        "image": "example@mail.com",
-        "datePublication": "2022-01-01",
-        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
-      },
-      {
-        "id": "7",
-        "titre": "hjibdv",
-        "auteur": "Alice",
-        "image": "example@mail.com",
-        "datePublication": "2022-01-01",
-        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem"
-      }
-    ],
-    "commentaires": [
-      {
-        "id": "1",
-        "publicationId": "1",
-        "dateCommentaire": "2022-01-02",
-        "contenu": "Great post!"
-      },
-      {
-        "id": "2",
-        "publicationId": "1",
-        "dateCommentaire": "2022-01-03",
-        "contenu": "Thanks for sharing!"
-      },
-      {
-        "id": "3",
-        "publicationId": "2",
-        "dateCommentaire": "2022-01-04",
-        "contenu": "Interesting perspective."
-      },
-      {
-        "id": "5",
-        "publicationId": "1",
-        "dateCommentaire": "2022-01-03",
-        "contenu": "Thanks for sharing!"
-      },
-      {
-        "id": "6",
-        "publicationId": "2",
-        "dateCommentaire": "2022-01-04",
-        "contenu": "Interesting perspective."
-      },
-      {
-        "id": "7",
-        "publicationId": "4",
-        "dateCommentaire": "2022-01-03",
-        "contenu": "Thanks for sharing!"
-      },
-      {
-        "id": "8",
-        "publicationId": "7",
-        "dateCommentaire": "2022-01-04",
-        "contenu": "Interesting perspective."
-      },
-      {
-        "id": "9",
-        "publicationId": "6",
-        "dateCommentaire": "2022-01-03",
-        "contenu": "Thanks for sharing!"
-      },
-      {
-        "id": "10",
-        "publicationId": "5",
-        "dateCommentaire": "2022-01-04",
-        "contenu": "Interesting perspective."
-      },
-      {
-        "id": "11",
-        "publicationId": "6",
-        "dateCommentaire": "2022-01-03",
-        "contenu": "Thanks for sharing!"
-      },
-      {
-        "id": "12",
-        "publicationId": "6",
-        "dateCommentaire": "2022-01-04",
-        "contenu": "Interesting perspective."
-      }
-    ]
-  }
+  "publications": [
+    {
+      "id": "1",
+      "titre": "Les Piliers de la Terre",
+      "auteur": "Ken Follett",
+      "datePublication": "2023-01-15",
+      "contenu": "Dans ce roman historique captivant, Ken Follett nous plonge dans l'Angleterre du XIIe siècle, où la construction d'une cathédrale devient le centre d'intrigues politiques, religieuses et personnelles. À travers les destins croisés de personnages inoubliables, l'auteur explore les thèmes de l'amour, de la trahison et de la quête de pouvoir. Tom Builder, un maître bâtisseur, rêve de construire une cathédrale qui défiera le temps, mais il doit faire face à des obstacles insurmontables, des rivalités féroces et des trahisons. Ce livre est une fresque épique qui mêle histoire, drame et passion, tout en offrant une plongée fascinante dans les réalités sociales et économiques du Moyen Âge."
+    },
+    {
+      "id": "2",
+      "titre": "Le Meilleur des Mondes",
+      "auteur": "Aldous Huxley",
+      "datePublication": "2023-02-10",
+      "contenu": "Dans un futur dystopique, Aldous Huxley imagine une société où la technologie et le conditionnement social ont éradiqué la souffrance, mais au prix de la liberté individuelle. Les citoyens sont génétiquement modifiés et conditionnés dès leur naissance pour accepter leur place dans une hiérarchie rigide. Le roman suit Bernard Marx, un homme qui commence à remettre en question les fondements de cette société apparemment parfaite. Ce roman visionnaire explore les dangers d'une société où le bonheur artificiel est imposé et où l'humanité perd son essence. Une lecture incontournable pour réfléchir aux dérives possibles de notre monde moderne et aux limites de la science et de la technologie."
+    },
+    {
+      "id": "3",
+      "titre": "L'Alchimiste",
+      "auteur": "Paulo Coelho",
+      "datePublication": "2023-03-05",
+      "contenu": "Ce conte philosophique suit le voyage de Santiago, un jeune berger andalou, en quête d'un trésor caché près des pyramides d'Égypte. En chemin, il rencontre des personnages fascinants, comme un roi mystérieux, une femme du désert et un alchimiste qui lui enseigne les secrets de l'univers. À travers des épreuves et des révélations, Santiago apprend que le véritable trésor réside dans la découverte de soi et la poursuite de ses rêves. Ce livre, empreint de spiritualité et de sagesse, invite les lecteurs à écouter leur cœur, à surmonter leurs peurs et à croire en leur propre légende personnelle."
+    },
+    {
+      "id": "4",
+      "titre": "1984",
+      "auteur": "George Orwell",
+      "datePublication": "2023-04-20",
+      "contenu": "Dans ce chef-d'œuvre de la littérature dystopique, George Orwell dépeint un monde totalitaire où la surveillance est omniprésente et où la vérité est manipulée. Le protagoniste, Winston Smith, travaille pour le Parti, mais il commence à remettre en question les mensonges qu'il est chargé de propager. Alors qu'il tombe amoureux de Julia, il découvre les horreurs d'un régime qui contrôle non seulement les actions, mais aussi les pensées. Ce roman est une réflexion puissante sur le pouvoir, la liberté et la vérité, et reste une mise en garde intemporelle contre les dangers de l'autoritarisme et de la manipulation de l'information."
+    },
+    {
+      "id": "5",
+      "titre": "Sapiens : Une brève histoire de l'humanité",
+      "auteur": "Yuval Noah Harari",
+      "datePublication": "2023-05-12",
+      "contenu": "Dans cet essai fascinant, Yuval Noah Harari retrace l'histoire de l'humanité, depuis l'émergence de l'Homo sapiens jusqu'à nos jours. Il explore les grandes révolutions qui ont façonné notre monde, de la révolution cognitive à la révolution scientifique, et pose des questions profondes sur notre avenir en tant qu'espèce. Harari examine comment les mythes, les religions et les idéologies ont façonné nos sociétés, et il s'interroge sur les défis éthiques et technologiques auxquels nous sommes confrontés aujourd'hui. Ce livre est une réflexion captivante sur ce que signifie être humain et sur les choix que nous devons faire pour l'avenir."
+    },
+    {
+      "id": "6",
+      "titre": "Le Petit Prince",
+      "auteur": "Antoine de Saint-Exupéry",
+      "datePublication": "2023-06-18",
+      "contenu": "Ce conte poétique et philosophique raconte l'histoire d'un petit prince venu d'une autre planète, qui explore l'univers à la recherche d'amitié et de compréhension. À travers ses rencontres avec divers personnages, comme un roi, un vaniteux, un allumeur de réverbères et un renard, le Petit Prince nous invite à réfléchir sur l'amour, l'amitié et le sens de la vie. Ce livre, écrit avec une simplicité désarmante, aborde des thèmes profonds et universels qui résonnent avec les lecteurs de tous âges. Un classique intemporel qui continue de toucher le cœur des générations."
+    },
+    {
+      "id": "7",
+      "titre": "L'Art de la Guerre",
+      "auteur": "Sun Tzu",
+      "datePublication": "2023-07-22",
+      "contenu": "Ce traité militaire antique, écrit par le stratège chinois Sun Tzu, est une œuvre intemporelle sur la stratégie et la tactique. Bien qu'il ait été conçu pour la guerre, ses enseignements sont applicables à de nombreux aspects de la vie, y compris les affaires, la gestion et même les relations personnelles. Sun Tzu met l'accent sur l'importance de la préparation, de la connaissance de soi et de son adversaire, et de l'adaptation aux circonstances. Ce livre continue d'inspirer les leaders et les penseurs du monde entier, offrant des leçons précieuses sur la prise de décision et la stratégie."
+    }
+  ],
+  "commentaires": [
+    {
+      "id": "1",
+      "publicationId": "1",
+      "dateCommentaire": "2023-03-16",
+      "contenu": "J'ai adoré ce livre ! Les personnages sont si bien développés, et l'histoire est captivante du début à la fin. La description de la construction de la cathédrale est fascinante."
+    },
+    {
+      "id": "2",
+      "publicationId": "1",
+      "dateCommentaire": "2023-03-17",
+      "contenu": "Ce livre m'a vraiment fait réfléchir sur notre société actuelle. Les parallèles avec le monde moderne sont troublants. Un chef-d'œuvre intemporel."
+    },
+    {
+      "id": "3",
+      "publicationId": "2",
+      "dateCommentaire": "2023-02-11",
+      "contenu": "L'Alchimiste est un livre qui m'a profondément touché. Il m'a rappelé l'importance de suivre mes rêves et de ne jamais abandonner, peu importe les obstacles."
+    },
+    {
+      "id": "4",
+      "publicationId": "3",
+      "dateCommentaire": "2023-04-06",
+      "contenu": "1984 est un livre puissant et effrayant. Il m'a fait réaliser à quel point la liberté d'expression est précieuse et fragile. À lire absolument."
+    },
+    {
+      "id": "5",
+      "publicationId": "5",
+      "dateCommentaire": "2023-05-13",
+      "contenu": "Sapiens est un livre fascinant qui m'a appris tellement de choses sur l'histoire de l'humanité. Je le recommande à tous ceux qui s'intéressent à notre passé et à notre avenir."
+    },
+    {
+      "id": "6",
+      "publicationId": "6",
+      "dateCommentaire": "2023-06-19",
+      "contenu": "Le Petit Prince est un livre que je relis régulièrement. Chaque lecture m'apporte une nouvelle perspective sur la vie et l'amour. Un véritable trésor littéraire."
+    },
+    {
+      "id": "7",
+      "publicationId": "7",
+      "dateCommentaire": "2023-07-23",
+      "contenu": "L'Art de la Guerre est un livre incroyable. Les stratégies décrites sont toujours pertinentes aujourd'hui, que ce soit dans les affaires ou dans la vie quotidienne."
+    },
+    {
+      "id": "6b8e",
+      "publicationId": "1",
+      "dateCommentaire": "2026-02-27",
+      "contenu": "j'aime vraiment ceci. c'est mon livre préféré, vous êtes un auteur extraordinaire\n"
+    }
+  ]
+}

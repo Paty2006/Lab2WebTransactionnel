@@ -11882,4 +11882,11 @@ textarea.form-control-lg {
   border: #00ADB5;
 }
 
+#publicationForm {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

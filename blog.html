@@ -4,8 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog CEPI</title>
+  <title>Blog CEPI</title> 
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="bg-dark text-white">
@@ -32,93 +36,10 @@
     </div>
   </nav>
 
-  <div class="container ">
-    <div class="d-flex justify-content-center">
-      <img src="images/imgBlog.jpg" class="img-fluid w-auto m-2" alt="image de couverture">
-    </div>
-    <h1 class="text-center fw-bold my-4 text-white" style="font-family: 'Lora', serif;">
-      Titre du blog
-    </h1>
-    <p class="row text-white" style="font-family: 'Open Sans', sans-serif;">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas quos ipsam fugit earum sunt nobis. Vel
-      similique minus sapiente deserunt suscipit, doloribus porro? Voluptatibus quia recusandae debitis suscipit
-      officia.
-    </p>
-    <p class="row text-white" style="font-family: 'Open Sans', sans-serif;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet sit magnam est doloremque libero,
-      consequatur in aut,
-      ipsam deleniti voluptatum dolorum iure sunt molestiae animi itaque autem aliquam earum reiciendis?Lorem ipsum,
-      dolor sit amet consectetur adipisicing elit. Nostrum, neque itaque. Eaque dolor ipsa ab reiciendis ex ipsum vero
-      maxime architecto perferendis cum deleniti ratione et amet, quis quod itaque. Lorem ipsum dolor sit amet
-      consectetur
-      adipisicing elit. Recusandae repudiandae quidem cum beatae praesentium maxime, explicabo iusto, autem amet
-      accusantium
-      distinctio quas id dolor sunt. Incidunt quaerat dolorem accusantium officiis?
-    </p>
-    <div class="row d-flex justify-content-center">
-      <img src="images/imgBlog.jpg" class="img-fluid w-50  w-lg-33 m-2" alt="Image responsive">
-    </div>
-    <p class="row text-white" style="font-family: 'Open Sans', sans-serif;">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas quos ipsam fugit earum sunt nobis.
-      Vel similique minus sapiente deserunt suscipit, doloribus porro? Voluptatibus quia recusandae debitis suscipit
-      officia.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci beatae officiis minus voluptas error autem
-      voluptates
-      quo recusandae fugit temporibus. Optio fuga rerum adipisci possimus laboriosam illo molestiae in magni.
-    </p>
-    <p class="row text-white" style="font-family: 'Open Sans', sans-serif;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet sit magnam est doloremque libero,
-      consequatur in aut,
-      ipsam deleniti voluptatum dolorum iure sunt molestiae animi itaque autem aliquam earum reiciendis?Lorem ipsum,
-      dolor sit amet consectetur adipisicing elit. Nostrum, neque itaque. Eaque dolor ipsa ab reiciendis ex ipsum vero
-      maxime architecto perferendis cum deleniti ratione et amet, quis quod itaque. Lorem ipsum dolor sit amet
-      consectetur
-      adipisicing elit. Recusandae repudiandae quidem cum beatae praesentium maxime, explicabo iusto, autem amet
-      accusantium
-      distinctio quas id dolor sunt. Incidunt quaerat dolorem accusantium officiis?
-    </p>
-    <form action="" class="row">
-      <div class="m-0   d-flex align-items-start justify-content-start">
-        <label for="commentaire" class="form-label row">Commentaires</label>
-      </div>
-      <textarea class="form-control m-0 w-100" id="commentaire" rows="5"></textarea>
-      <div class="col justify-content-end d-flex">
-        <button type="submit" class="btn btn-primary" >Submit</button>
-      </div>
-    </form>
-    <div class="container m-2">
-
-      <div class="row justify-content-end align-items-start">
-        <img src="images/profil.png" class="img-fluid m-2 col-1 img-thumbnail" style="box-shadow: 0 4px 6px rgba(255, 255, 255, 0.5);" width="200" height="200" alt="image de couverture">
-        <div class="col-10">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, beatae. Assumenda autem sit, voluptatum
-            nobis velit mollitia deleniti magnam id vel ducimus, minima numquam enim voluptatem doloremque doloribus
-            corporis perferendis?
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, beatae. Assumenda autem sit, voluptatum
-            nobis velit mollitia deleniti magnam id vel ducimus, minima numquam enim voluptatem doloremque doloribus
-            corporis perferendis?
-          </p>
-        </div>
-      </div>
-
-      <div class="row justify-content-end align-items-start">
-        <img src="images/profil.png" class="img-fluid m-2 col-1 img-thumbnail" style="box-shadow: 0 4px 6px rgba(255, 255, 255, 0.5);" width="200" height="200" alt="image de couverture">
-        <div class="col-9">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, beatae. Assumenda autem sit, voluptatum
-            nobis velit mollitia deleniti magnam id vel ducimus, minima numquam enim voluptatem doloremque doloribus
-            corporis perferendis?
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, beatae. Assumenda autem sit, voluptatum
-            nobis velit mollitia deleniti magnam id vel ducimus, minima numquam enim voluptatem doloremque doloribus
-            corporis perferendis?
-          </p>
-        </div>
-      </div>
-
-    </div>
+  <div class="container " id="publication">
+    
+        <!-- CONTENU DE LA PUBLICATION-->
+    
   </div>
   <footer class="text-center my-5">
     <div class="d-flex justify-content-center gap-3 mb-2">
@@ -130,8 +51,9 @@
     <small>2022</small>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
-  <script src="./ajax/script.js"></script>
-
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.min.js" integrity="sha256-mblSWfbYzaq/f+4akyMhE6XELCou4jbkgPv+JQPER2M=" crossorigin="anonymous"></script>
+    <script src="./JavaScript/blog.js"></script>
 </body>
 
 </html>
