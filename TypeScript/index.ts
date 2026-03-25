@@ -41,7 +41,7 @@ async function afficherPublications(idContainer: string) {
                 htmlContent += `
                 <div class='col-lg-4'>
                     <div id='card${element.id}' class='card card-hover h-100 border border-primary'>
-                        <img src='images/`;
+                        <img src='../images/`;
                         
                 // Utilise l'image correspondant à l'ID si elle existe, sinon utilise l'image par défaut
                 if(element.id < '8')

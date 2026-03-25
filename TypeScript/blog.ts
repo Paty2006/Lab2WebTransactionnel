@@ -66,7 +66,7 @@ async function afficherCommentaires(idPublication: string) {
         // Parcourt chaque commentaire et génère le HTML correspondant
         commentaires.forEach((commentaire: any) => {
             htmlContent += `<div class="row justify-content-end align-items-start">
-                                <img src="images/profil.png" class="img-fluid m-2 col-1 img-thumbnail" style="box-shadow: 0 4px 6px rgba(255, 255, 255, 0.5);" width="200" height="200" alt="image de couverture">
+                                <img src="../images/profil.png" class="img-fluid m-2 col-1 img-thumbnail" style="box-shadow: 0 4px 6px rgba(255, 255, 255, 0.5);" width="200" height="200" alt="image de couverture">
                                 <div class="col-${decalage}">
                                     <p>${commentaire.contenu}</p>
                                     <p>Posté le ${commentaire.dateCommentaire}</p>
@@ -96,7 +96,7 @@ async function afficherPublication(idContainer: string, idPublication: string) {
         // Génère le HTML complet de la page de publication
         let htmlContent = `
                 <div class="d-flex justify-content-center">
-      <img src="images/${json.id}.jpg" class="img-fluid w-auto m-2" alt="image de couverture">
+      <img src="../images/${json.id}.jpg" class="img-fluid w-auto m-2" alt="image de couverture">
     </div>
     <h1 class="text-center fw-bold my-4 text-white" style="font-family: 'Lora', serif;">
     ${json.titre}
@@ -105,7 +105,7 @@ async function afficherPublication(idContainer: string, idPublication: string) {
     Publié par ${json.auteur} le ${json.datePublication}
     </p>
     <div class="row d-flex justify-content-center">
-      <img src="images/${json.id}.jpg" class="img-fluid w-50  w-lg-33 m-2" alt="Image responsive">
+      <img src="../images/${json.id}.jpg" class="img-fluid w-50  w-lg-33 m-2" alt="Image responsive">
     </div>
     <p class="row text-white" style="font-family: 'Open Sans', sans-serif;">${json.contenu}
     </p>

@@ -85,7 +85,7 @@ function afficherPublications(idContainer) {
                             // Vérifie que tous les champs nécessaires sont présents
                             if (element.titre != null && element.auteur != null && element.datePublication != null && element.contenu != null) {
                                 // Début de la carte Bootstrap pour la publication
-                                htmlContent_1 += "\n                <div class='col-lg-4'>\n                    <div id='card".concat(element.id, "' class='card card-hover h-100 border border-primary'>\n                        <img src='images/");
+                                htmlContent_1 += "\n                <div class='col-lg-4'>\n                    <div id='card".concat(element.id, "' class='card card-hover h-100 border border-primary'>\n                        <img src='../images/");
                                 // Utilise l'image correspondant à l'ID si elle existe, sinon utilise l'image par défaut
                                 if (element.id < '8')
                                     htmlContent_1 += element.id;
